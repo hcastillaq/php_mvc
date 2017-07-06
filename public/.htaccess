@@ -1,0 +1,6 @@
+RewriteEngine on
+
+BaseCond %{REQUEST_FILENAME} !-f
+BaseCond %{REQUEST_FILENAME} !-d
+
+BaseRule ^(.*)$ index.php  
