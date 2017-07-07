@@ -34,6 +34,7 @@ class Route{
             
             $rm = new \ReflectionMethod($c, $method);
             $n = $rm->getNumberOfRequiredParameters();
+            
             if(count($params) == $n){
                 $c = new $c();
                 call_user_func_array(array($c, $method), $params);

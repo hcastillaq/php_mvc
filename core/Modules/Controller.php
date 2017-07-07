@@ -2,6 +2,9 @@
 namespace Modules;
 
 class Controller{
+    
+    private $modelo;
+
     public function __construct(){
     }
 

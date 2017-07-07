@@ -10,7 +10,6 @@ class Handler{
         set_exception_handler(function($e){
             View::render('errors', ['error'=>$e]);
         });
-
     }   
 }
 
