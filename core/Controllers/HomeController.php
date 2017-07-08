@@ -10,9 +10,7 @@ class HomeController extends Controller{
     
 
     public function index(){
-        $u = new Usuario();
-        View::render('prueba',['u'=>$u->select("*")]);
-        
+        View::render('home',['message'=>'Le vent se lève, il faut tenter de vivre.']);
     }
 
     public function saluda($nombre, $apellido){
