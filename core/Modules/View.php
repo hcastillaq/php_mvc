@@ -18,8 +18,6 @@ class View{
             include($file);
             echo ob_get_clean();
         }
-
-        
     }
 
     public function exist($file){
