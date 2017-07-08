@@ -32,11 +32,10 @@ class Medoo
 
 	protected $guid = 0;
 
-	public function __construct()
+	public function __construct($options)
 	{	
 		try {
 			
-			$options = $GLOBALS['DB_CONFIG'];
 			
 			if (is_array($options))
 			{

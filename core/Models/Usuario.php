@@ -2,8 +2,8 @@
 
 namespace Models;
 
-use Modules\Medoo;
+use Modules\Model;
 
-class Usuario extends Medoo{
-
+class Usuario extends Model{
+    protected $table = "usuarios";
 }

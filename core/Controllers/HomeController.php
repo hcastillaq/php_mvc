@@ -6,10 +6,10 @@ use Models\Usuario;
 
 class HomeController extends Controller{
     
-    
+
     public function index(){
-        new Usuario();
-        echo '..soy el index';
+        $u = new Usuario();
+        var_dump($u->select("*"));
     }
 
     public function saluda($nombre, $apellido){
