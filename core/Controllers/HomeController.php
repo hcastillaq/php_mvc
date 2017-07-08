@@ -3,7 +3,7 @@
 namespace Controllers;
 
 use Modules\Controller;
-use Models\Usuario;
+use Models\Usuario as usr;
 use Modules\View;
 
 class HomeController extends Controller{
@@ -13,7 +13,11 @@ class HomeController extends Controller{
         View::render('home',['message'=>'Le vent se lève, il faut tenter de vivre.']);
     }
 
-    public function saluda($nombre, $apellido){
-        echo $this->json(['hola'=>'hernan']);
+    public function crear($nombre, $apellido){
+        $u = new usr();
+        var_dump ($u->insert([
+            'nombre' => $nombre,
+            'apellido' => $apellido
+        ]));
     }
 }

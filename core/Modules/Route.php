@@ -13,9 +13,8 @@ class Route{
     }
 
     public function match($url){
-        $path = preg_replace('!@\w!', '([^/]+)', $this->path);
+        $path = preg_replace('!@\w+!', '([^/]+)', $this->path);
         preg_match("!^$path$!i", $url, $m);
-         
         if(!empty($m)){
             array_shift($m);
             $this->call($m);
