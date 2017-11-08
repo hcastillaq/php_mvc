@@ -1,4 +1,5 @@
 <?php
+
 use Modules\Router;
 
 Router::route('GET', '/','HomeController:index');
