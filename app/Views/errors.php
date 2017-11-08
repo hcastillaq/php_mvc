@@ -6,26 +6,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content=ro"ie=edge">
 	<title>Error</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i" 
+	rel="stylesheet">
 	<style>
-			*{
-					font-family: sans-serif, Helvetica;
-					padding: 0px;
-					margin: 0px;
-			}
-			header{
-					background: #e53935;
-					color:white;
-					padding: 20px;
-					box-shadow: 1px 0px 4px rgba(0,0,0,.3),  1px 0px 10px rgba(0,0,0,.2)
-			}
+		*{
+			font-family: 'Roboto Condensed', sans-serif, Helvetica;
+			font-style: italic;
+			padding: 0px;
+			margin: 0px;
+			font-weight: 300;
+			color: white;
+		}
 
-			body{
-					background: #fefefe;
-			}
+		header{
+			background: #272727;
+			color:white;
+			padding: 20px;
+		}
 
-			section{
-					padding: 20px;
-			}
+		body{
+			background: #212121;
+		}
+		section{
+			padding: 20px;
+		}
 	</style>
 </head>
 <body>

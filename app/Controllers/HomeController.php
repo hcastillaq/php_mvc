@@ -3,7 +3,7 @@ namespace Controllers;
 
 use Models\Usuario as usr;
 use Modules\View;
-use Modules\Helpers;
+use Modules\Helpers\Redirect;
 
 class HomeController{
 	
