@@ -8,7 +8,7 @@ use Modules\Helpers\Redirect;
 class HomeController{
 	
 	public function index(){
-		View::render('home',['message'=>'Le vent se lève, il faut tenter de vivre.']);
+		View::render('auth/login');
 	}
 
 	public function crear($nombre, $apellido){

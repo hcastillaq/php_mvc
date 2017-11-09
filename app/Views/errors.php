@@ -17,7 +17,6 @@
 			font-weight: 300;
 			color: white;
 		}
-
 		header{
 			background: #272727;
 			color:white;
