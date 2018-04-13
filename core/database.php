@@ -36,8 +36,8 @@
 
 	$DB_CONFIG = [
 		'database_type' => 'mysql',
-		'database_name' => 'prueba',
+		'database_name' => 'nombre_de_la_db',
 		'server' => 'localhost',
-		'username' => 'root',
-		'password' => '123456',
+		'username' => 'username',
+		'password' => 'password',
 	];

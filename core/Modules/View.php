@@ -25,7 +25,6 @@ class View{
 		$file = VIEWS.$file.$v->ext;
 
 		if($v->exist($file)){
-
 			if(!is_null($array)){
 				extract($array);
 			}
@@ -43,7 +42,4 @@ class View{
 		throw new \Exception("$file no encontrado");
 	}
 
-	static function hola(){
-		echo '..';
-	}
 }

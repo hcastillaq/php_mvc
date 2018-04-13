@@ -33,9 +33,9 @@
 </head>
 <body>
 	<header>
-			<h1>
+			<h3>
 					Error: <?php echo $error->getMessage();?>
-			</h1>
+			</h3>
 	</header>
 	<section>
 				<h4>
