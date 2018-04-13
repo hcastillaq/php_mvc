@@ -1,4 +1,0 @@
-<?php 
-	$resource('a.php');
-?>
-
